@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "goodbyefeedback",
+    "libraryId": "50af83b0-e39d-4fb1-8527-32a14dab97b1",
+    "environment": "spo"
+  }
+}

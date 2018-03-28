@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "goodbye-feedback-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/goodbyeFeedback/GoodbyeFeedbackApplicationCustomizer.js",
+          "manifest": "./src/extensions/goodbyeFeedback/GoodbyeFeedbackApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GoodbyeFeedbackApplicationCustomizerStrings": "lib/extensions/goodbyeFeedback/loc/{locale}.js"
+  }
+}
