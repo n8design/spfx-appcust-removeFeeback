@@ -28,7 +28,7 @@ This package produces the following:
 ```bash
 gulp build
 gulp bundle
-gulp package-solution
+gulp package-solution --ship
 ```
 
 ### Additional Deployment step
