@@ -1,3 +1,6 @@
+# spfx-appcust-removeFeeback
+SharePoint Framework Application Customizer to remove the Feedback Button from Modern Experience Pages such as modern Team Sites and Communication Site
+
 ## goodbyefeedback
 
 This is where you include your WebPart documentation.
