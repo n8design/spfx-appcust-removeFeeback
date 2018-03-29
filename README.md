@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # spfx-appcust-removeFeeback
 SharePoint Framework Application Customizer to remove the Feedback Button from Modern Experience Pages such as modern Team Sites and Communication Site
 
@@ -27,3 +28,7 @@ gulp test - TODO
 gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
+=======
+# spfx-appcust-removeFeeback
+SharePoint Framework Application Customizer to remove the Feedback Button from Modern Experience Pages such as modern Team Sites and Communication Site
+>>>>>>> e0b37ab873aee247c23fc291921758bf2ee93dba
