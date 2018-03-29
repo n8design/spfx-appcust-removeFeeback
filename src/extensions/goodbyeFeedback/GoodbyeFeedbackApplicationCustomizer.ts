@@ -9,6 +9,9 @@ import { Dialog } from '@microsoft/sp-dialog';
 
 import * as strings from 'GoodbyeFeedbackApplicationCustomizerStrings';
 
+import styles from './GoodbyeFeedback.module.scss';
+import { escape } from '@microsoft/sp-lodash-subset';
+
 const LOG_SOURCE: string = 'GoodbyeFeedbackApplicationCustomizer';
 
 /**
@@ -23,8 +26,6 @@ export interface IGoodbyeFeedbackApplicationCustomizerProperties {
   Bottom: string;
 }
 
-import styles from './GoodbyeFeedback.module.scss';
-import { escape } from '@microsoft/sp-lodash-subset';
 
 /** A Custom Action which can be run during execution of a Client Side Application */
 export default class GoodbyeFeedbackApplicationCustomizer
@@ -57,7 +58,6 @@ export default class GoodbyeFeedbackApplicationCustomizer
       if (this.properties) {
         if (this._topPlaceholder.domElement) {
           this._topPlaceholder.domElement.innerHTML = ``;
-          `${styles.app}`
         }
       }
     }

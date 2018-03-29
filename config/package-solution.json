@@ -15,9 +15,6 @@
         "assets": {
           "elementManifests": [
             "elements.xml"
-          ],
-          "elementFiles": [
-            "../../lib/extensions/goodbyeFeedback/GoodbyeFeedback.module.css"
           ]
         }
       }
