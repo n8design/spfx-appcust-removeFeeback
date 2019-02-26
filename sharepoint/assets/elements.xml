@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-    <CustomAction
-        Title="GoodbyeFeedback"
-        Location="ClientSideExtension.ApplicationCustomizer"
-        ClientSideComponentId="1b6c8db5-6877-406a-9bb3-e866418c3c25"
-        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
-    </CustomAction>
-</Elements>
